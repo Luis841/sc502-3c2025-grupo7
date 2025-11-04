@@ -1,0 +1,20 @@
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .navbar a {
+      color: rgb(252, 252, 252);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-decoration: none;
+      padding: 10px;
+    }
+
+    .navbar a:hover {
+      background-color: #8b9eb9;
+      border-radius: 5px;
+      color: black;
+    }
+
+    footer a:hover {
+      color: #C7BDA7 !important;
+    }
