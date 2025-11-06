@@ -1,0 +1,12 @@
+# Activar modo reescritura
+RewriteEngine On
+
+# Ruta Base
+RewriteBase /sc502-3c2025-grupo7/
+
+# Validacion de que no sea un Path o un File
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Rediccionamiento a index.php
+RewriteRule ^(.+)$ index.php?ruta=$1 [QSA,L]
